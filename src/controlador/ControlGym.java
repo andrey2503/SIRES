@@ -99,7 +99,9 @@ public class ControlGym implements ActionListener{
         {pago.dispose();}
         
         if(e.getActionCommand().equalsIgnoreCase(PanelPagos.BTN_PAGARMENSUALIDAD))
-        {}
+        {
+        String editabl="";
+        }
         
         
     }// FIN DEL ACTIONPERFORMED
