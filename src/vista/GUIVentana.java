@@ -37,6 +37,7 @@ public class GUIVentana extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jMenu3 = new javax.swing.JMenu();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         mi_salir = new javax.swing.JMenuItem();
@@ -45,6 +46,9 @@ public class GUIVentana extends javax.swing.JFrame {
         mi_pagos = new javax.swing.JMenuItem();
         mi_reporte = new javax.swing.JMenuItem();
         mi_atrasos = new javax.swing.JMenuItem();
+        jMenu4 = new javax.swing.JMenu();
+
+        jMenu3.setText("jMenu3");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -70,6 +74,9 @@ public class GUIVentana extends javax.swing.JFrame {
         jMenu2.add(mi_atrasos);
 
         jMenuBar1.add(jMenu2);
+
+        jMenu4.setText("About");
+        jMenuBar1.add(jMenu4);
 
         setJMenuBar(jMenuBar1);
 
@@ -125,6 +132,8 @@ public class GUIVentana extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenu jMenu3;
+    private javax.swing.JMenu jMenu4;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem mi_atrasos;
     private javax.swing.JMenuItem mi_pagos;
